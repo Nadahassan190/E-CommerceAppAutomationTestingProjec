@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb59da72-2b11-4933-8e87-dc9f980aadc1" name="Changes" comment="firstSubmission">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/01-Environmentvaribales.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/cucumber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/depencies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/library.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/maven.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScreenShots/plugins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_03_Currancies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_04_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_05_HoverCategory.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_06_HomeSlide.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_07_FollowUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_8_WishListAdding.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_01_RegistrationStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_02_LoginStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_03_CurranciesStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_04_SearchingStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_05_HoverCategoryStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_06_HomeSlidersStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_07_FollowUsStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_08_WishListStepDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_01_RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_02_LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_03_CurranciesMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_04_SearchMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_05_HoverMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_06_SliderMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_07_FollowMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_08_WishListMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testRunner/Runners.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb59da72-2b11-4933-8e87-dc9f980aadc1" name="Changes" comment="firstSubmission" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="nadah &lt;arch.nadahassan190@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -224,6 +189,28 @@
       <option name="presentableId" value="Default" />
       <updated>1659464103575</updated>
     </task>
+    <task id="LOCAL-00001" summary="firstSubmission">
+      <created>1659772839512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659772839513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="firstSubmission">
+      <created>1659772876621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659772876621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="firstSubmission">
+      <created>1659773127472</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659773127472</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
