@@ -115,10 +115,11 @@ public class PA_01_RegisterPage {
     public void AC_8_result() {
 
         SoftAssert soft = new SoftAssert();
-        String expectedResult = "Your registration completed";
-        String actualResult = ActualResultcolorPOM().getText();
-        soft.assertTrue(actualResult.contains(expectedResult));
-        soft.assertEquals("https://demo.nopcommerce.com/registerresult/1", Hooks.driver.getCurrentUrl());
+
+//        String expectedResult = "Your registration completed";
+//        String actualResult = ActualResultcolorPOM().getText();
+//        soft.assertTrue(actualResult.contains(expectedResult));
+//        soft.assertEquals("https://demo.nopcommerce.com/registerresult/1", Hooks.driver.getCurrentUrl());
 
         String expectedResultt = "Your registration completed";
         String actualResultt =ActualResultTextPOM().getText();
