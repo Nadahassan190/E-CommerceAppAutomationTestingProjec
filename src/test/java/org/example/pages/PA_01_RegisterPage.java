@@ -124,12 +124,8 @@ public class PA_01_RegisterPage {
         String actualResultt =ActualResultTextPOM().getText();
         soft.assertEquals(actualResultt, expectedResultt);
 
-        String expectedcolorResult = ActualResultcolorPOM().getCssValue("#4cb17c");
-        String actualcolorResult =Color.fromString(expectedcolorResult).asHex();
-        soft.assertEquals(actualcolorResult, expectedcolorResult);
-
         soft.assertAll();
-        AC_9_logoutSteps ();
+
     }
 
     public void AC_9_logoutSteps () {logoutRegisterPOM().click();}
