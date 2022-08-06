@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb59da72-2b11-4933-8e87-dc9f980aadc1" name="Changes" comment="firstSubmission register edits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_01_RegistrationStepDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_01_RegistrationStepDefine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_02_LoginStepDefine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_02_LoginStepDefine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_01_RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_01_RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_05_HoverMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_05_HoverMainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +244,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659775471109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="firstSubmission register edits">
+      <created>1659776600899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659776600899</updated>
+    </task>
+    <task id="LOCAL-00009" summary="firstSubmission register edits">
+      <created>1659776615454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659776615454</updated>
+    </task>
+    <task id="LOCAL-00010" summary="firstSubmission register edits">
+      <created>1659776687035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659776687035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

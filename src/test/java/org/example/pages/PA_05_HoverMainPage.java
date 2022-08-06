@@ -25,26 +25,26 @@ public class PA_05_HoverMainPage {
         System.out.println(count);
         int min = 0;
         int max = count - 1;
-        int selectedMainCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
-        action.moveToElement(mainCategories.get(selectedMainCategory)).perform();
-        String selectedMainCategoryName = mainCategories.get(selectedMainCategory).getText().toLowerCase().trim();
+        int selectedCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
+        action.moveToElement(mainCategories.get(selectedCategory)).perform();
+        String selectedMainCategoryName = mainCategories.get(selectedCategory).getText().toLowerCase().trim();
 
-        String locator = "(//ul[@class='top-menu notmobile']//ul)[" +Integer.toString(selectedMainCategory+1)+"]/li";
-        List<WebElement> subCategoryLinks = Hooks.driver.findElements(By.xpath(locator));
+        String locator = "(//ul[@class='top-menu notmobile']//ul)[" +Integer.toString(selectedCategory+1)+"]/li";
+        List<WebElement> subCategoryLocation = Hooks.driver.findElements(By.xpath(locator));
 
         Hooks.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
-        if(!subCategoryLinks.isEmpty())
+        if(!subCategoryLocation.isEmpty())
         {
 
             int SubCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
-            subCategoryLinks.get(SubCategory).click();
-            String SubCategoryName = subCategoryLinks.get(SubCategory).getText().toLowerCase().trim()   ;
+            subCategoryLocation.get(SubCategory).click();
+            String SubCategoryName = subCategoryLocation.get(SubCategory).getText().toLowerCase().trim()   ;
             String subCategoryTitle = CategoryTitle();
             Assert.assertTrue(subCategoryTitle.contains(SubCategoryName.toLowerCase().trim()));            }
         else
         {
-            mainCategories.get(selectedMainCategory).click();
+            mainCategories.get(selectedCategory).click();
             String ActualCategoryTitle = CategoryTitle();
             Assert.assertTrue(ActualCategoryTitle.contains(selectedMainCategoryName.toLowerCase().trim()));
         }
