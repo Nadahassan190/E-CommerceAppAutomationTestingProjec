@@ -26,7 +26,7 @@ public class DS_01_RegistrationStepDefine {
     public void user_enter_dateOf_Birth(){register.AC_4_BirthDateDayPOM();}
 
     @And    ("user enter email \"test@example.com\" field")
-    public void user_enter_email(){register.AC_5_EmailAndCompanyPOM("test@example.com","FWD");}
+    public void user_enter_email(){register.AC_5_EmailAndCompanyPOM("testm@example.com","FWD");}
 
     @And   ("user fills Password fields \"P@ssw0rd\"")
     public void user_fills_Password_fields(){register.AC_6_EnterPasswordPOM("P@ssw0rd","P@ssw0rd");}

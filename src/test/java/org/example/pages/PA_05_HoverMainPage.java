@@ -19,46 +19,38 @@ public class PA_05_HoverMainPage {
 
 
     public void HO_1_HoverCategory() throws InterruptedException {
-        SoftAssert soft = new SoftAssert();
         Actions action = new Actions(Hooks.driver);
-        List<WebElement> mainCategories = ImageAvater();
+        List<WebElement> mainCategories = ImageAvater() ;
         int count = mainCategories.size();
+        System.out.println(count);
         int min = 0;
         int max = count - 1;
-        int SelectedCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
+        int selectedMainCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
+        action.moveToElement(mainCategories.get(selectedMainCategory)).perform();
+        String selectedMainCategoryName = mainCategories.get(selectedMainCategory).getText().toLowerCase().trim();
 
-        action.moveToElement(mainCategories.get(SelectedCategory)).perform();
-        String selectedMainCategoryName = mainCategories.get(SelectedCategory).getText().toLowerCase().trim();
-        System.out.println(count);
-        System.out.println(selectedMainCategoryName);
-        String location = "(//ul[@class='top-menu notmobile']//ul)[" +Integer.toString(SelectedCategory+1)+"]/li";
-        List<WebElement> subCategoryLinks = Hooks.driver.findElements(By.xpath(location));
-        Hooks.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        String locator = "(//ul[@class='top-menu notmobile']//ul)[" +Integer.toString(selectedMainCategory+1)+"]/li";
+        List<WebElement> subCategoryLinks = Hooks.driver.findElements(By.xpath(locator));
 
-        if(!subCategoryLinks.isEmpty()) {
+        Hooks.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
-                int subCount = subCategoryLinks.size();
-                System.out.println(subCount);
-                System.out.println(subCategoryLinks.get(0).getText());
-                System.out.println(subCategoryLinks.get(1).getText());
-                System.out.println(subCategoryLinks.get(2).getText());
+        if(!subCategoryLinks.isEmpty())
+        {
 
-                int selectedSubCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
-                String selectedSubCategoryName = subCategoryLinks.get(selectedSubCategory).getText();
-                subCategoryLinks.get(selectedSubCategory).click();
+            int SubCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
+            subCategoryLinks.get(SubCategory).click();
+            String SubCategoryName = subCategoryLinks.get(SubCategory).getText().toLowerCase().trim()   ;
+            String subCategoryTitle = CategoryTitle();
+            Assert.assertTrue(subCategoryTitle.contains(SubCategoryName.toLowerCase().trim()));            }
+        else
+        {
+            mainCategories.get(selectedMainCategory).click();
+            String ActualCategoryTitle = CategoryTitle();
+            Assert.assertTrue(ActualCategoryTitle.contains(selectedMainCategoryName.toLowerCase().trim()));
+        }
 
-                String subCategoryTitle = CategoryTitle();
-                System.out.println(subCategoryTitle);
-                System.out.println(selectedSubCategoryName);
-                soft.assertTrue(subCategoryTitle.contains(selectedSubCategoryName.toLowerCase().trim()));}
+        Hooks.driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
 
-        else {
-            mainCategories.get(SelectedCategory).click();
-            String CategoryTitle =CategoryTitle();
-            soft.assertTrue(CategoryTitle.contains(selectedMainCategoryName.toLowerCase().trim()));
-            Hooks.driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-            soft.assertAll();
-            }
     }
 
 }
