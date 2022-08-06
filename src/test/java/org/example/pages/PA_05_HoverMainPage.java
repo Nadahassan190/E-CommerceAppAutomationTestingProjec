@@ -17,7 +17,6 @@ public class PA_05_HoverMainPage {
     public List<WebElement> ImageAvater() {return Hooks.driver.findElements(By.xpath("//ul[@class=\"top-menu notmobile\"]/li"));}
     public String CategoryTitle() {return Hooks.driver.findElement((By.cssSelector("div[class=\"page-title\"] h1"))).getText().toLowerCase().trim();}
 
-
     public void HO_1_HoverCategory() throws InterruptedException {
         Actions action = new Actions(Hooks.driver);
         List<WebElement> mainCategories = ImageAvater() ;
@@ -27,8 +26,8 @@ public class PA_05_HoverMainPage {
         int max = count - 1;
         int selectedCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
         action.moveToElement(mainCategories.get(selectedCategory)).perform();
-        String selectedMainCategoryName = mainCategories.get(selectedCategory).getText().toLowerCase().trim();
 
+        String selectedMainCategoryName = mainCategories.get(selectedCategory).getText().toLowerCase().trim();
         String locator = "(//ul[@class='top-menu notmobile']//ul)[" +Integer.toString(selectedCategory+1)+"]/li";
         List<WebElement> subCategoryLocation = Hooks.driver.findElements(By.xpath(locator));
 
@@ -36,7 +35,6 @@ public class PA_05_HoverMainPage {
 
         if(!subCategoryLocation.isEmpty())
         {
-
             int SubCategory = (int) Math.floor(Math.random() * (max - min + 1) + min);
             subCategoryLocation.get(SubCategory).click();
             String SubCategoryName = subCategoryLocation.get(SubCategory).getText().toLowerCase().trim()   ;
