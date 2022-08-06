@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb59da72-2b11-4933-8e87-dc9f980aadc1" name="Changes" comment="firstSubmission">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/01-Environmentvaribales.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/cucumber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/depencies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/library.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/maven.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShots/plugins.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_01_Register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_02_Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_03_Currancies.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_04_Search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_05_HoverCategory.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_06_HomeSlide.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_07_FollowUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/feature/SC_8_WishListAdding.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_01_RegistrationStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_02_LoginStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_03_CurranciesStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_04_SearchingStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_05_HoverCategoryStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_06_HomeSlidersStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_07_FollowUsStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/DS_08_WishListStepDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StepsDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_01_RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_02_LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_03_CurranciesMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_04_SearchMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_05_HoverMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_06_SliderMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_07_FollowMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/PA_08_WishListMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/testRunner/Runners.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CoLgDAsMUKf6zAerI48jxyNKvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/nadah/Desktop/E-commerce-App-Automation-Testing-main",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nadah\Desktop\Final\src\main\resources\feature" />
+      <recent name="C:\Users\nadah\Desktop\Final\drivers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.pages" />
+      <recent name="org.example.StepsDefinitions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: SC_03_Currancies">
+    <configuration name="Feature: SC_03_Currancies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/SC_03_Currancies.feature" />
+      <option name="GLUE" value="org.example.StepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_03_Currancies" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: SC_06_HomeSlide" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/SC_06_HomeSlide.feature" />
+      <option name="GLUE" value="org.example.StepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: SC_06_HomeSlide" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: 2 user could search for product using sku" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/SC_04_Search.feature" />
+      <option name="GLUE" value="org.example.StepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final" />
+      <option name="NAME_FILTER" value="^2 user could search for product using sku$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^2 user could search for product using sku$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: 2 user could search for product using sku" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User could switch between currencies US-Euro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/SC_03_Currancies.feature" />
+      <option name="GLUE" value="org.example.StepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final" />
+      <option name="NAME_FILTER" value="^User could switch between currencies US\-Euro$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User could switch between currencies US\-Euro$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: User could switch between currencies US-Euro" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user could hover categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/feature/SC_05_HoverCategory.feature" />
+      <option name="GLUE" value="org.example.StepsDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Final" />
+      <option name="NAME_FILTER" value="^user could hover categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user could hover categories$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: user could hover categories" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: SC_03_Currancies" />
+        <item itemvalue="Cucumber Java.Scenario: User could switch between currencies US-Euro" />
+        <item itemvalue="Cucumber Java.Scenario: 2 user could search for product using sku" />
+        <item itemvalue="Cucumber Java.Scenario: user could hover categories" />
+        <item itemvalue="Cucumber Java.Feature: SC_06_HomeSlide" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb59da72-2b11-4933-8e87-dc9f980aadc1" name="Changes" comment="" />
+      <created>1659464103575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659464103575</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstSubmission" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstSubmission" />
+  </component>
+</project>
